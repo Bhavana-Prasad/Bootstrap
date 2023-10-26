@@ -1,0 +1,41 @@
+
+.row{
+    width: 80%;
+    height: 600px;
+    border: 2px solid black;
+    background-color: firebrick;
+    display: flex;
+    justify-content:space-around;
+}
+
+.col{
+    width: 30%;
+    height: 450px;
+    background-color: olive;
+    border: 1px solid white;
+    margin-top: 50px;
+}
+
+.card_head{
+    background-color: darkslategrey;
+    color: black;
+    padding: 1px;
+    text-align: center;
+}
+
+.card_image img{
+    width: 100%;
+    height: 200px;
+}
+
+.card_title{
+    text-align: center;
+}
+.card_title ul{
+    list-style:square;
+    text-align: left;
+}
+
+.card_btn{
+    text-align: center;
+}
